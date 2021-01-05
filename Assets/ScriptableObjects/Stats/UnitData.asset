@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac4f245a788794409df8b4f9a1d0493, type: 3}
+  m_Name: UnitData
+  m_EditorClassIdentifier: 
+  m_SizeCharacteristic:
+    Modifier:
+    - type: 0
+      modifierValue: 50
+    - type: 0
+      modifierValue: -50
+  m_ShapeCharacteristic:
+    Modifier1:
+    - type: 0
+      modifierValue: 100
+    - type: 0
+      modifierValue: 50
+    Modifier2:
+    - type: 1
+      modifierValue: 10
+    - type: 1
+      modifierValue: 20
+  m_ColorCharacteristic:
+    ModifierArray:
+    - Modifier:
+      - type: 1
+        modifierValue: 10
+      - type: 0
+        modifierValue: 100
+      - type: 1
+        modifierValue: 30
+      - type: 0
+        modifierValue: 200
+    - Modifier:
+      - type: 0
+        modifierValue: 50
+      - type: 1
+        modifierValue: 20
+      - type: 0
+        modifierValue: 150
+      - type: 1
+        modifierValue: 40
+  m_BasicAtkDmg: 10
+  m_BasicHP: 100
+  m_BasicAtkRange: 10
+  m_MinSpeedInterpolationValue: 10
+  m_MAXSpeedInterpolationValue: 5
+  m_MinATKSPDInterpolationValue: 1
+  m_MAXATKSPDInterpolationValue: 2
+  minHPADD: 50
+  maxHPADD: 350
+  minATKADD: 10
+  maxATKADD: 60
